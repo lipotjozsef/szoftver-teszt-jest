@@ -1,0 +1,25 @@
+{
+  "name": "jest_test",
+  "version": "1.0.0",
+  "description": "exercises for the upcoming jest exam",
+  "keywords": [
+    "jest",
+    "test",
+    "unit_testing"
+  ],
+  "license": "ISC",
+  "author": "gyula",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest ./tests"
+  },
+  "dependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.2"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "unrs-resolver@1.12.2": true
+  }
+}
